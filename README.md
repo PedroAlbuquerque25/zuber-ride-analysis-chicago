@@ -1,82 +1,82 @@
 # 🚕 Zuber Ride Analysis — Chicago
 
-## 📌 Descrição do Projeto
-Este projeto consiste em uma análise de dados realizada para a **Zuber**, uma nova empresa de compartilhamento de caronas que está sendo lançada em **Chicago**.
+## 📌 Project Overview
+This project performs a comprehensive data analysis for **Zuber**, a new ride-sharing company launching in **Chicago**. 
 
-O objetivo principal é identificar **padrões no comportamento dos passageiros**, analisar dados de empresas concorrentes e **avaliar o impacto de fatores externos**, como o clima, na frequência das viagens.
+The primary goal is to identify **passenger behavior patterns**, analyze competitor data, and **evaluate the impact of external factors**, such as weather conditions, on trip frequency and duration.
 
-A análise foi conduzida a partir de dados extraídos de um banco de dados SQL e trabalhados em Python.
-
----
-
-## 🎯 Objetivos
-- Analisar o volume de viagens entre empresas concorrentes
-- Identificar preferências dos passageiros por regiões da cidade
-- Avaliar a influência do clima na demanda por corridas
-- Testar uma hipótese estatística relacionada às condições climáticas
+The analysis was conducted using data extracted via SQL and processed using Python to drive strategic insights for Zuber's market entry.
 
 ---
 
-## 🧪 Hipótese
-> **Hipótese nula (H₀):** As condições climáticas não impactam significativamente a frequência das viagens.  
-> **Hipótese alternativa (H₁):** Condições climáticas adversas impactam a frequência das viagens.
+## 🎯 Objectives
+* Analyze trip volumes across competing taxi companies.
+* Identify passenger preferences and top destinations (neighborhoods) within the city.
+* Evaluate the influence of weather conditions on ride demand.
+* Conduct statistical hypothesis testing to validate the impact of climate factors.
 
 ---
 
-## 📂 Estrutura do Projeto
+## 🧪 Hypothesis Testing
+> **Null Hypothesis (H₀):** The average duration of rides from the Loop to O'Hare International Airport does not change on rainy Saturdays.  
+> **Alternative Hypothesis (H₁):** The average duration of rides from the Loop to O'Hare International Airport differs on rainy Saturdays.
+
+---
+
+## 📂 Project Structure
+```text
 zuber-ride-analysis-chicago/
 ├── datasets/
-│ ├── trips.csv
-│ └── neighbourhoods.csv
+│   ├── trips.csv
+│   └── neighbourhoods.csv
 ├── notebook/
-│ └── notebook.ipynb
+│   └── notebook.ipynb
 ├── environment.yml
 ├── .gitignore
 └── README.md
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tech Stack
 - **Python 3.10**
-- **Pandas** — manipulação e análise de dados
-- **Matplotlib & Seaborn** — visualização de dados
-- **Jupyter Notebook**
-- **Conda** — gerenciamento de ambiente
-- **Git & GitHub** — versionamento
+- **Pandas — Data manipulation and analysis.
+- **Matplotlib & Seaborn** — Data visualization.
+- **SciPy — Statistical hypothesis testing.
+- **Jupyter Notebook** — Interactive environment.
+- **Conda** — Environment management.
+- **Git & GitHub** — Version control.
 
 ---
 
-## 🚀 Como Executar o Projeto
+## 🚀 🚀 How to Run
 
-### 1️⃣ Clonar o repositório
+### 1️⃣ Clone the repositoryo
 ```bash
 git clone https://github.com/PedroAlbuquerque25/zuber-ride-analysis-chicago.git
 cd zuber-ride-analysis-chicago
 
-2️⃣ Criar o ambiente Conda
+2️⃣ Set up the Environment (Conda)
 conda env create -f environment.yml
 conda activate zuber-env
 
-3️⃣ Abrir o notebook
+3️⃣ Launch the Notebook
 jupyter notebook
-Abra o arquivo notebook/notebook.ipynb
+# Open notebook/notebook.ipynb
 ```
 
 ---
 
-## 📊 Resultados Esperados
-* Identificação das empresas com maior volume de corridas
-* Mapeamento das regiões mais populares da cidade
-* Evidências estatísticas sobre o impacto do clima na demanda
-* Insights que podem apoiar decisões estratégicas da Zuber
+## 📊 Key Findings & Insights
+* Market Dominance: Identified the leading taxi companies by trip volume, highlighting market concentration.
+* Top Destinations: Mapped the most popular drop-off locations, with the "Loop" being the primary hub.
+* Weather Impact: Statistical evidence (Mann-Whitney U test) confirmed that bad weather significantly affects trip durations.
+* Strategic Support: Insights provided to support Zuber's marketing and operational planning for 2017.
 
 
 ---
 
 👤 Autor
-Pedro Albuquerque
-Projeto desenvolvido para fins educacionais e de portfólio em Análise de Dados.
-
+Pedro Albuquerque Data Analyst | Business Intelligence
 ---
 
 ## 🤝 Contato
