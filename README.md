@@ -24,7 +24,8 @@ The analysis was conducted using data extracted via SQL and processed using Pyth
 ---
 
 ## 📂 Project Structure
-```text
+
+```
 zuber-ride-analysis-chicago/
 ├── datasets/
 │   ├── trips.csv
@@ -63,7 +64,7 @@ conda activate zuber-env
 3️⃣ Launch the Notebook
 jupyter notebook
 # Open notebook/notebook.ipynb
-
+```
 
 ---
 
