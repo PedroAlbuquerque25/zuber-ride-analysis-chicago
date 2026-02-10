@@ -34,6 +34,7 @@ zuber-ride-analysis-chicago/
 ├── environment.yml
 ├── .gitignore
 └── README.md
+```
 
 ---
 
@@ -62,7 +63,7 @@ conda activate zuber-env
 3️⃣ Launch the Notebook
 jupyter notebook
 # Open notebook/notebook.ipynb
-```
+
 
 ---
 
