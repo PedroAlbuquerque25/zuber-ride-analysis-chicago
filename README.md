@@ -78,7 +78,8 @@ jupyter notebook
 ---
 
 👤 Autor
-Pedro Albuquerque Data Analyst | Business Intelligence
+Pedro Albuquerque Data Science | Data Analyst | Business Intelligence
+
 ---
 
 ## 🤝 Contato
